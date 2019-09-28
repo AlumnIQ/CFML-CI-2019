@@ -1,11 +1,14 @@
 {
-    "app":{
-        "cfengine":"adobe@11"
-    },
-    "openbrowser":"false",
-    "web":{
-        "http":{
-            "port":"8500"
-        }
+  "app": {
+    "cfengine": "adobe@11"
+  },
+  "openbrowser": "false",
+  "web": {
+    "http": {
+      "port": "8500"
     }
+  },
+  "JVM": {
+    "args": "-javaagent:\"/home/travis/.CommandBox/engine/cfml/cli/lucee-server/context/lucee-external-agent.jar\""
+  }
 }
