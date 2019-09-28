@@ -4,11 +4,10 @@ component extends="testbox.system.BaseSpec" {
 			it("runs a test", function () {
 				expect(true).toBeTrue();
 			});
-			/* this is a known failing test
+			/* this is a known failing test */
 			it("fails", function () {
 				expect(false).toBeTrue();
 			});
-			*/
 		});
 	}
 }
