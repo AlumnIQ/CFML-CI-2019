@@ -7,6 +7,8 @@ env:
     - ENGINE=lucee@5
     - ENGINE=adobe@11
 
+dist: trusty
+
 cache:
   directories:
     - $HOME/.CommandBox

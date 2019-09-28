@@ -7,8 +7,5 @@
     "http": {
       "port": "8500"
     }
-  },
-  "JVM": {
-    "args": "-javaagent:\"/home/travis/.CommandBox/engine/cfml/cli/lucee-server/context/lucee-external-agent.jar\""
   }
 }
