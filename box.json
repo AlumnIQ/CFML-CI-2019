@@ -8,6 +8,7 @@
   "testbox": {
     "runner": [
       { "default": "http://localhost:8500/tests/ci/testbox-runner.cfm" }
-    ]
+    ],
+    "directory": "tests.testbox"
   }
 }
