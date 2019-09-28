@@ -1,14 +1,16 @@
 {
-  "devDependencies": {
-    "testbox": "^3.1.0+339"
-  },
-  "installPaths": {
-    "testbox": "testbox"
-  },
-  "testbox": {
-    "runner": [
-      { "default": "http://localhost:8500/tests/ci/testbox-runner.cfm" }
-    ],
-    "directory": "tests.testbox"
-  }
+    "devDependencies":{
+        "testbox":"^3.1.0+339"
+    },
+    "installPaths":{
+        "testbox":"testbox/"
+    },
+    "testbox":{
+        "runner":[
+            {
+                "default":"http://localhost:8500/tests/ci/testbox-runner.cfm"
+            }
+        ],
+        "directory":"tests.testbox"
+    }
 }

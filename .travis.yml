@@ -24,7 +24,5 @@ install:
 before_script:
   - box server start cfengine=$ENGINE port=8500 openbrowser=false
 
-script: >
-  testResults="echo $(box testbox run reporter=mintext)";
-  echo "$testResults";
-  if grep -i "\[Failures: [1-9][0-9]\?[0-9]\?\]\|\[Errors: [1-9][0-9]\?[0-9]\?\]\|<t[^>]*>\|<b[^>]*>" <<< $testResults;  then exit 1; fi
+script:
+  - box testbox run
