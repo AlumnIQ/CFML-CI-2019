@@ -1,4 +1,4 @@
-component {
+component extends="testbox.system.BaseSpec" {
 	function run () {
 		describe("Dummy test", function () {
 			it("runs a test", function () {
