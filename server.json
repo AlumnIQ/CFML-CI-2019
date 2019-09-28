@@ -1,7 +1,4 @@
 {
-  "app": {
-    "cfengine": "adobe@11"
-  },
   "openbrowser": "false",
   "web": {
     "http": {
