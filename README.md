@@ -1,4 +1,4 @@
-Look, it actually works: [![Build Status](https://travis-ci.org/AlumnIQ/ci_test.svg?branch=master)](https://travis-ci.org/AlumnIQ/ci_test)
+Look, it actually works: [![Build Status](https://travis-ci.org/AlumnIQ/CFML-CI-2019.svg?branch=master)](https://travis-ci.org/AlumnIQ/CFML-CI-2019)
 
 Forked from https://github.com/coldfumonkeh/cfml-ci
 
